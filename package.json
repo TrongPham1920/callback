@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^1.12.1",
+    "dayjs": "^1.11.18",
+    "express": "^5.1.0",
+    "file-saver": "^2.0.5",
+    "node-telegram-bot-api": "^0.63.0",
+    "util": "^0.12.5",
+    "xlsx": "^0.18.5"
+  },
+  "name": "new-folder",
+  "version": "1.0.0",
+  "main": "file_report.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

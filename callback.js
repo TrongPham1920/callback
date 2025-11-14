@@ -24,7 +24,7 @@ app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
 // Keep-alive ping mỗi 5 phút
 setInterval(() => {
   axios
-    .get(`http://localhost:${PORT}/ping`)
+    .get(`https://callback-a98k.onrender.com/ping`)
     .then(() => console.log("💓 Keep-alive ping sent"))
     .catch((err) => console.error("❌ Keep-alive ping failed:", err.message));
 }, 5 * 60 * 1000);
